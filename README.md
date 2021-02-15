@@ -25,7 +25,7 @@ Beskriv hvilke templates(ex. *header*) der skal udvikles, i første omgang konce
 1. header
 2. card
 3. footer
-4. button
+4. button - en kompenent rettere.
 
 ### Mobile first
 ”Mobil først” betyder, som navnet antyder, at vi starter produktdesignet ved de små skærm på telefoner, som har flere begrænsninger og derefter viderudvikler vi produktet så der også er verioner der fungerer optimelt på tablet og eller desktop.
