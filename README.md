@@ -23,10 +23,12 @@ Ethvert projekt har brug for at være organiseret. At smide alle nye CSS-regel d
 Beskriv hvilke templates(ex. *header*) der skal udvikles, i første omgang koncentrerer vi os om den mobile udgave(se style guide). List herunder de templates du er kommet frem til skal udvikles. 
 
 1. header
-2. card
-3. featured-card
-4. dark-card
-5. footer
+2. hero
+3. toggle
+4. card
+5. featured-card
+6. dark-card
+7. footer
 
 A. button - en kompenent rettere.
 
