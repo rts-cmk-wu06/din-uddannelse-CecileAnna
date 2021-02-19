@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Din Uddannelse</title>
+    <script src="https://kit.fontawesome.com/8a29176b8f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/toggle.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/dark-card.css">
+    <link rel="stylesheet" href="./css/featured-card.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/button.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="./index.html"><img src="./img/dinudd_logo.png" alt="Din uddannelse - logo"></a>
+        <label for="kebab-menu-box"><p>menu<i class="fas fa-ellipsis-v"></i></p></i></label>
+        <input id="kebab-menu-box" type="checkbox" name="kebab-menu-box">
+        <nav class="header__nav">
+            <ul>
+                <li><a class="header__nav__links" href="./article.html">Artikel</a></li>
+                <li><a class="header__nav__links" href="./details.html">Detaljer</a></li>
+                <li><a class="header__nav__links" href="./portrait.html">Portræt</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <main>
+        <div class="wrapper">
+            <form class="hero hero_img_url01">
+                <h1>Undersøg erhvervsuddannelse muligheder!</h1>
+                <i class="fas fa-search"></i>
+                <input type="search">
+            </form>
+
+            <div class="featured-card">
+                <header class="featured__header">
+                    <h1>Månedens skole</h1>
+                </header>
+                <div class="flex-flow--row">
+                    <div class="featured__img featured__img_url01 featured__img--desktop"></div>
+                    <div class="flex-flow--column">
+                        <article class="featured__article">
+                            <h1>Bliv webudvikler på Roskilde Tekniske skole</h1>
+                            <p>På webudvikler-uddannelsen lærer du at arbejde med programmering og udvikling af webløsninger til forskellige platforme som websites og mobile enheder. Uddannelsen giver i teori og praksis en solid viden om arbejdet med front-end
+                                og webløsninger. Du vil i praksis anvende webteknologier som kommunikation mellem brugerflade og eksterne datakilder og lære om teknologierne bag dynamiske webløsninger. Du vil eksempelvis arbejde med data fra enheder,
+                                som er en del af IoT (Internet of Things), og derigennem bidrage til udviklingen af fremtidens Internet.</p>
+                        </article>
+                        <footer class="featured__footer">
+                            <button class="button">LÆS MERE</button>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="flex-flow--row">
+                    <div class="card__img card__img__url01"></div>
+                    <div class="flex-flow-card--column">
+                        <article class="card__article">
+                            <h1>Uddannelsesforløb på eud</h1>
+                            <p>Uddannelsen består af et grundforløb 1 og/eller grundforløb 2 samt et hovedforløb.</p>
+                        </article>
+                        <footer class="card__footer">
+                            <button class="button">LÆS MERE</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="flex-flow--row">
+                    <div class="card__img card__img__url02"></div>
+                    <div class="flex-flow-card--column">
+                        <article class="card__article">
+                            <h1>Grundforløb 1: Fra 9. eller 10. klasse</h1>
+                            <p class="max-lines">Når du vil starte direkte efter 9. eller 10. klasse, skal du starte på grundforløb 1, der varer 20 uger. Men du har også mulighed for at søge ind i op til 2 år efter du har afsluttet folkeskolen. Efter grundforløb 1 skal du
+                                fortsætte på grundforløb 2. På grundforløb 1 skal du vælge en fagretning. Fagretningerne giver dig bred viden og grundlæggende færdigheder inden for en række uddannelser samt et indblik i en branche. Undervisningen er praksisorienteret
+                                og organiseret som projektarbejde.</p>
+                        </article>
+                        <footer class="card__footer">
+                            <button class="button">LÆS MERE</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content-wrapper">
+            <div class="contacts-wrapper">
+                <h3>Kontakt os</h3>
+                <p>Din Uddannelse Inc.</p>
+                <p>Vejvej 99</p>
+                <p>7100 Vejle</p>
+            </div>
+            <div class="icons__wrapper">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+        <p class="footer__copyright">© RTS Web Design</p>
+    </footer>
+
+</body>
+
+</html>
