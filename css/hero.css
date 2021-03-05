@@ -1,0 +1,68 @@
+/* hero section */
+
+.hero {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.hero_img_url01 {
+    background-image: url("../img/webudvikler_0.jpg");
+}
+
+.hero input {
+    border-radius: 15px;
+    border: 1px solid #C40000;
+    height: 7vh;
+    width: 80%;
+}
+
+.hero i {
+    color: #C40000;
+    font-size: 1.5rem;
+    position: relative;
+    top: 5.9vh;
+    left: -35vw;
+}
+
+.hero h1 {
+    color: black;
+    font-size: 1.7rem;
+    font-family: Georgia, serif;
+    width: 80%;
+    text-shadow: 0.5em 0.5em 1em rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .hero {
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .hero input {
+        border-radius: 25px;
+        border: 1px solid #C40000;
+        height: 7vh;
+        width: 60%;
+    }
+    .hero i {
+        font-size: 2.3rem;
+        top: 5.9vh;
+        left: -25vw;
+    }
+    .hero h1 {
+        color: black;
+        font-size: 4rem;
+        width: 60%;
+        font-weight: normal;
+        background-color: rgba(255, 255, 255, 0.616);
+    }
+}

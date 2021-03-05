@@ -1,0 +1,62 @@
+/* resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* UTILITY CLASSES */
+
+
+/* used for full page featured article on portrait page */
+
+.p--padding-bottom {
+    padding-bottom: 4rem;
+}
+
+.font-color--white {
+    color: white;
+}
+
+.max-lines {
+    display: block;
+    /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+}
+
+
+/* FONTS */
+
+h1 {
+    font-size: 2rem;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-family: Georgia, serif;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+
+/* MAIN */
+
+.wrapper {
+    width: 100%;
+}
+
+
+/* FOOTER */

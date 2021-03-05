@@ -1,0 +1,291 @@
+.featured-card {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 2rem;
+    background-color: #F1EBEB;
+}
+
+.featured__header {
+    background-color: #C40000;
+}
+
+.featured__header h2 {
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+.featured__img {
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 1.5rem;
+    background-image: url("../img/webudvikler-jobbet-venter-paa-henrik_0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.feat__img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.details-featured__img {
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+}
+
+.featured__img_url01 {
+    background-image: url("../img/webudvikler-jobbet-venter-paa-henrik_0.jpg")
+}
+
+.featured__img_url02 {
+    background-image: url("../img/om-skolen_1.jpg")
+}
+
+.featured__article {
+    padding: 0 2em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured__article h1 {
+    color: black;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.featured__article p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.featured__footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+
+/* full page featured article -- mostly used on article page */
+
+.featured-card--fullpage {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.featured__article-page {
+    padding: 0 2em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured__article-page h1 {
+    color: black;
+    font-size: 1.45rem;
+    padding: 1rem 0 1rem 0;
+    line-height: 1.4;
+    font-weight: lighter;
+}
+
+.featured__article-page h2 {
+    color: black;
+    font-size: 0.8rem;
+    line-height: 1.8;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.featured__article-page p {
+    color: black;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.featured__img--fullpage {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+.wrapper--center {
+    margin: 0 0.1em;
+}
+
+
+/* article page full page hero img */
+
+.articlepage-hero__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* portrait page full page featured card */
+
+.featured-portrait__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.portrait-featured__article h1 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    padding: 1.5rem 1.3rem;
+}
+
+.portrait-featured__article p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 1rem 1.3rem 3.5rem 1.3rem;
+}
+
+.portrait-featured__text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    /* UTILITY CLASSES */
+    .flex-flow--row {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .flex-flow--column {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .flex-1 {
+        flex: 1;
+    }
+    .flex-2 {
+        flex: 2;
+    }
+    .width100 {
+        width: 100%;
+    }
+    /* general laptops styles */
+    .featured__img--desktop {
+        width: 40%;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .featured__article h1 {
+        color: black;
+        font-size: 3.6rem;
+        padding: 0 0 1.5rem 0;
+        line-height: 1.4;
+        font-family: Georgia, serif;
+        font-weight: normal;
+    }
+    .featured__article p {
+        color: black;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        font-weight: lighter;
+    }
+    .featured__footer {
+        display: flex;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+    /* under the portrait page */
+    .portrait-featured-card--fullpage {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: white;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 85vw;
+        max-width: 95vw;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .portrait-featured__article {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .portrait-featured__article h1 {
+        font-size: 4rem;
+        padding: 1rem 0;
+        font-weight: lighter;
+        order: 1;
+    }
+    .portrait-featured__text-wrapper {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        order: 2;
+    }
+    .featured-portrait__img {
+        object-fit: cover;
+        width: 60vw;
+        height: auto;
+        order: 3;
+    }
+    .portrait-button {
+        align-self: flex-end;
+    }
+    /* under the details page */
+    .details-featured-card--fullpage {
+        margin: 2.5rem;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 1em;
+        max-width: 100vw;
+        height: 170vh;
+    }
+    .details-featured__img {
+        order: 1;
+        margin-bottom: 0;
+        width: 45%;
+    }
+    .details-dark-card {
+        order: 2;
+        width: 45%;
+    }
+    .details-article-text {
+        order: 3;
+        width: 45%;
+        padding: 0;
+    }
+    /* under the article page */
+    .featured__article-page {
+        padding-bottom: 4rem;
+    }
+    .featured__article-page h1 {
+        font-size: 4rem;
+        padding: 6rem 0 2rem 0;
+    }
+    .featured__article-page h2 {
+        font-size: 1.6rem;
+        line-height: 1.2;
+        padding-bottom: 2rem;
+    }
+    .featured__article-page p {
+        font-size: 1.3rem;
+    }
+    .wrapper--center {
+        margin: 0 9.5em;
+    }
+}

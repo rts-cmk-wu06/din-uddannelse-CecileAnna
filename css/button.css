@@ -1,0 +1,15 @@
+.button {
+    background-color: #C40000;
+    box-shadow: 0.2em 0.3em 0.7em #8003039a;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.6;
+    border-radius: 30px;
+    padding: 1rem;
+    border: none;
+    width: 157px;
+    text-align: center;
+    text-decoration: none;
+}
