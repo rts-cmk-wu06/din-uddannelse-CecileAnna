@@ -27,15 +27,12 @@
     color: #C40000;
     font-size: 1.5rem;
     position: absolute;
-    /* top: 29.8vh;
-    right: 84vw; */
     top: 74%;
     right: 83%;
     transform: translate(35%, -40%);
 }
 
 .hero h1 {
-    /* color: #C40000; */
     color: black;
     background-color: rgba(255, 255, 255, 0.123);
     font-size: 1.7rem;
